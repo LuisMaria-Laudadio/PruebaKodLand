@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header{
+    background-color: #ffbf69;
+}
+.navbar-brand{
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+.title {
+  font-size: 115px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  text-align: start;
+  padding-top: 100px;
+  padding-left: 70px;
+  color: #fff;
+}
+
+.h3-banner {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: start;
+  margin-top: 20px;
+  margin-left: 70px;
+  color: #fff;
+}
+.btn-banner {
+  background-color: #cbf3f0;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 70px;
+  border: none;
+}
+
+.banner {
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/background.png);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 600px;
+}
+
+.Explicacion {
+  text-align: center;
+  height: 300px;
+  padding-bottom: 30px;
+}
+.p-expli{
+    height: 200px;
+}
+.Productos {
+  text-align: center;
+  background-color: #cbf3f0;
+}
+.imgs {
+  height: 200px;
+  margin-top: 40px;
+}
+.img-productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.btns-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+  
+}
+
+.info-productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.btn-img{
+    background-color:#ffbf69 ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+
+
+.Info {
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-image: url(../images/bg-grid.png);
+  height: 500px;
+  margin-left: 20px;
+  
+
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+
+    
+}
+
+.texto {
+    flex: 1;
+    padding: 20px;
+}
+
+.imagen {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    text-align: right;
+    
+}
+
+
+.img-aside {
+  height: 350px;
+}
+
+.footer{
+    height: 80px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center;
+}
+
+
+
+
+
+@media screen and (max-width:1200px){
+    .img-aside{
+        height: 300px;
+    }
+
+    .contenedor{
+        width: 85%;
+    }
+}
+
+
+@media screen and (max-width:970px){
+    .img-aside{
+        height: 250px;
+    }
+    .Info{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:570px){
+    .img-aside{
+        height: 200px;
+    }
+    .p-expli{
+        height: 100px;
+    }
+    .text-p{
+        display: none; 
+    }
+   .imgs{
+    height: 120px;
+    margin-top: 15px;
+   }
+}
+
+@media screen and (max-width:430px){
+    .img-aside{
+        height: 150px;
+    }
+    .p-expli{
+        height: 100px;
+    }
+
+   .imgs{
+    height: 100px;
+    margin-top: 10px;
+   }
+
+}
